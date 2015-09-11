@@ -152,7 +152,7 @@ https://dev.recurly.com/docs/list-subscriptions
 
 	recurly.subscriptions.list([filter], callback)
 
-	recurly.subscriptions.listByAccount(accountcode, callback)
+	recurly.subscriptions.listByAccount(accountcode, [filter], callback)
 
 	recurly.subscriptions.get(uuid, callback)
 
